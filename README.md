@@ -9,13 +9,14 @@ A collection of mini web applications built with JavaScript and styled using Tai
 
 ### 🧠 Quiz App
 ![Quiz App](./assets/quiz-1.png)
-(./assets/quiz-2.png)(./assets/quiz-3.png)
+![](./assets/quiz-2.png)!
+[](./assets/quiz-3.png)
 
 ### 🛒 E-Cart App
-![E-Cart App](./assets/Screenshot (193).png)
+![E-Cart App](./assets/Screenshot(193).png)
 
 ### ✅ To-Do List
-![To-Do List](./assets/Screenshot (194).png)
+![To-Do List](./assets/Screenshot(194).png)
 
 ### 💰 Expense Tracker App
 ![Expense Tracker App](./assets/image.png)
