@@ -9,8 +9,8 @@ A collection of mini web applications built with JavaScript and styled using Tai
 
 ### 🧠 Quiz App
 ![Quiz App](./assets/quiz-1.png)
-![](./assets/quiz-2.png)!
-[](./assets/quiz-3.png)
+![...](./assets/quiz-2.png)
+![..](./assets/quiz-3.png)
 
 ### 🛒 E-Cart App
 ![E-Cart App](./assets/Screenshot(193).png)
