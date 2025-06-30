@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../output.css">
+  <title>Quiz App</title>
+</head>
+<body class="flex flex-col bg-gray-900 items-center justify-center h-screen">
+  <div id="container" class="bg-gray-800 flex flex-col rounded-md p-3 text-white min-w-96">
+    <div id="start-container" class="flex flex-col">
+      <h1 class="font-bold text-2xl text-center ">Quiz App</h1>
+      <button id="start-btn" class="bg-violet-600 text-center rounded-sm p-2 self-center mt-4">Start Quiz</button>
+    </div>
+
+    <div id="question-container" class="hidden flex flex-col">
+      <h1 id="question">
+        <!-- question will be added dynamically here -->
+      </h1>
+      <ul id="choices" class="flex flex-col rounded-md gap-2 mt-4">
+        <!-- options will be added here -->
+      </ul>
+      <button id="next-btn" class="bg-violet-600 text-center rounded-sm p-2 self-center mt-4">Next</button>
+    </div>
+
+    <div id="result-container" class="hidden">
+      <h2 class="text-center">Your Score : <span id="score"></span></h2>
+      <!-- <h2 id="level-1-congrats" class="hidden">Congratulations you have cleared Level-1</h2>
+      <h2 id="level-2-congrats" class="hidden">Congratulations you have cleared Level-2</h2> -->
+      <h1 class="hidden text-center text-2xl" id="win-message">Congratulations! You won the Quiz.</h1>
+      <div class="items-center gap-4 justify-center flex">
+        <button id="restart-btn" class="bg-violet-600 text-center rounded-sm p-2 mt-4">Restart Quiz</button>
+        <button id="next-level-btn" class="hidden text-black bg-gradient-to-r from-blue-400 to-green-500 text-center rounded-sm p-2 mt-4">Next Level</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="module" src="script.js"></script>
+</html>
