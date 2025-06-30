@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../output.css">
+  <title>Designing a To-Do-List</title>
+</head>
+<body class="bg-gray-800 flex items-center justify-center h-screen">  
+  <!-- <div id="container" class="grid m-4 p-4 grid-cols-2 bg-gray-300 rounded-lg gap-4"> -->
+  <div id="container" class="grid m-4 p-4 grid-cols-2 bg-gray-300 rounded-lg gap-4 max-h-[90vh] overflow-y-auto">
+    <h1 class="font-bold underline col-span-2 text-2xl text-center">TO-DO-LIST</h1>
+    <input id="taskInput" type="text" placeholder="Add a new task" class="border border-black-300 ml-1 rounded p-2">
+    <button id="addTaskBtn" class="bg-blue-500 hover:bg-blue-700 text-white mr-1 p-2 rounded" onclick="addTodo();">Add Task</button>
+    <div id="todoContainer" class="mt-4 grid col-span-2 gap-4" onclick="addTodo();">
+      <!-- Task items will be added here dynamically -->
+    </div>
+  </div>
+  <script src="todo.js"></script>
+  <script type="module" src="creatingProxy/api.js"></script>
+</body>
+</html>
