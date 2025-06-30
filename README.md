@@ -2,13 +2,24 @@
 
 A collection of mini web applications built with JavaScript and styled using Tailwind CSS. Each project is self-contained and demonstrates a different use case, from productivity tools to fun interactive apps.
 
-## Table of Contents
+## 📸 Application Previews
 
-- [WeatherAppProxy]('./assets/image.png')
-- [Quiz App](#quiz-app)
-- [E-Cart App](#e-cart-app)
-- [To-Do List](#to-do-list)
-- [Expense Tracker App](#expense-tracker-app)
+### 🌦️ WeatherAppProxy
+![Weather App](./assets/weather.png)
+
+### 🧠 Quiz App
+![Quiz App](./assets/quiz-1.png)
+(./assets/quiz-2.png)(./assets/quiz-3.png)
+
+### 🛒 E-Cart App
+![E-Cart App](./assets/Screenshot (193).png)
+
+### ✅ To-Do List
+![To-Do List](./assets/Screenshot (194).png)
+
+### 💰 Expense Tracker App
+![Expense Tracker App](./assets/image.png)
+
 
 
 ---
