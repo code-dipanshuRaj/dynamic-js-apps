@@ -4,7 +4,7 @@ A collection of mini web applications built with JavaScript and styled using Tai
 
 ## Table of Contents
 
-- [WeatherAppProxy](#weatherappproxy)
+- [WeatherAppProxy]('./assets/image.png')
 - [Quiz App](#quiz-app)
 - [E-Cart App](#e-cart-app)
 - [To-Do List](#to-do-list)
